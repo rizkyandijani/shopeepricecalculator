@@ -1,0 +1,14 @@
+{
+  "name": "shopeepricecalculator",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/preview.mjs",
+    "preview": "node server/preview.mjs",
+    "build": "node scripts/build.mjs",
+    "deploy": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
